@@ -1,0 +1,8 @@
+/* Hide loading indicator */
+.wrapper[data-ajax_count]::before {
+    display: none !important;
+}
+
+.loader {
+    display: none !important;
+}

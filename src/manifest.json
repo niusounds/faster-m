@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/chrome-manifest",
+  "name": "faster-m",
+  "description": "MCloud faster",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "css": [
+        "style.css"
+      ],
+      "matches": [
+        "https://*.m-cloud.jp/*"
+      ]
+    }
+  ],
+  "manifest_version": 3
+}
